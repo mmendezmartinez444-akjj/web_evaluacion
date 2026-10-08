@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="heroTitle">
+  <title id="heroTitle">Ilustración de una mancuerna sobre un disco de pesas con rayos de energía</title>
+  <circle cx="200" cy="210" r="170" fill="#1f2228"/>
+  <circle cx="200" cy="210" r="170" fill="none" stroke="#ff6b35" stroke-width="3" opacity="0.4"/>
+  <g>
+    <rect x="70" y="190" width="28" height="60" rx="6" fill="#ffd60a"/>
+    <rect x="302" y="190" width="28" height="60" rx="6" fill="#ffd60a"/>
+    <rect x="98" y="204" width="24" height="32" rx="4" fill="#ff6b35"/>
+    <rect x="278" y="204" width="24" height="32" rx="4" fill="#ff6b35"/>
+    <rect x="122" y="212" width="156" height="16" rx="8" fill="#f2f3f5"/>
+  </g>
+  <g stroke="#ff6b35" stroke-width="6" stroke-linecap="round" opacity="0.8">
+    <path d="M200 70v30"/>
+    <path d="M140 90l18 24"/>
+    <path d="M260 90l-18 24"/>
+  </g>
+  <g fill="#ffd60a" opacity="0.7">
+    <circle cx="90" cy="300" r="6"/>
+    <circle cx="310" cy="300" r="6"/>
+    <circle cx="200" cy="330" r="6"/>
+  </g>
+</svg>

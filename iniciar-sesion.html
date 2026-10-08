@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iniciar sesión — IronCore Gym</title>
+  <meta name="description" content="Inicia sesión en tu cuenta de IronCore Gym para gestionar tu membresía y reservar clases." />
+  <meta name="keywords" content="iniciar sesión, cuenta, acceso gimnasio" />
+  <meta name="author" content="IronCore Gym" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">
+        <img src="assets/favicon.svg" alt="" width="36" height="36" />
+        IronCore Gym
+      </a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle-input" />
+      <label for="menu-toggle" class="nav-toggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="site-nav" id="menu-principal" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="iniciar-sesion.html" class="nav-cta" aria-current="page">Iniciar sesión</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="login-wrapper">
+      <section class="form-card narrow" aria-labelledby="login-title">
+        <h1 id="login-title" class="section-title">Iniciar sesión</h1>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="usuario">Correo o usuario</label>
+            <input type="email" id="usuario" name="usuario" placeholder="tucorreo@ejemplo.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" placeholder="••••••••" required minlength="6" />
+          </div>
+
+          <div class="form-options">
+            <div class="form-row-inline">
+              <input type="checkbox" id="recordarme" name="recordarme" />
+              <label for="recordarme">Recordarme</label>
+            </div>
+            <a href="#">¿Olvidaste tu contraseña?</a>
+          </div>
+
+          <button type="submit" class="btn btn-block">Entrar</button>
+        </form>
+
+        <p class="form-footnote">
+          ¿No tienes cuenta? <a href="#">Regístrate</a>
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-copy">&copy; 2026 IronCore Gym. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>

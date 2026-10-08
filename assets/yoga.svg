@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img" aria-labelledby="yogaTitle">
+  <title id="yogaTitle">Colchoneta de yoga enrollada junto a una silueta en postura de loto</title>
+  <rect width="300" height="220" fill="#1d2024"/>
+  <rect x="60" y="150" width="140" height="18" rx="9" fill="#ff6b35"/>
+  <rect x="60" y="150" width="30" height="18" rx="9" fill="#ffd60a"/>
+  <circle cx="200" cy="95" r="20" fill="#f2f3f5"/>
+  <path d="M170 150c0-28 14-45 30-45s30 17 30 45" fill="none" stroke="#f2f3f5" stroke-width="10" stroke-linecap="round"/>
+  <path d="M160 150c10-10 20-10 40 0M200 150c10-10 20-10 40 0" stroke="#ffd60a" stroke-width="6" fill="none" stroke-linecap="round"/>
+</svg>

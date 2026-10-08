@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img" aria-labelledby="musculacionTitle">
+  <title id="musculacionTitle">Mancuerna cargada con discos de pesas, representando el área de musculación</title>
+  <rect width="300" height="220" fill="#1d2024"/>
+  <rect x="40" y="95" width="18" height="40" rx="4" fill="#ffd60a"/>
+  <rect x="242" y="95" width="18" height="40" rx="4" fill="#ffd60a"/>
+  <rect x="62" y="85" width="16" height="60" rx="3" fill="#ff6b35"/>
+  <rect x="222" y="85" width="16" height="60" rx="3" fill="#ff6b35"/>
+  <rect x="82" y="105" width="136" height="20" rx="10" fill="#f2f3f5"/>
+</svg>

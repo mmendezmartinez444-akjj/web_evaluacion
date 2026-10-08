@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img" aria-labelledby="spinningTitle">
+  <title id="spinningTitle">Bicicleta estática de spinning vista de perfil</title>
+  <rect width="300" height="220" fill="#1d2024"/>
+  <circle cx="110" cy="150" r="34" fill="none" stroke="#ff6b35" stroke-width="8"/>
+  <circle cx="110" cy="150" r="6" fill="#ffd60a"/>
+  <path d="M110 150l40-55h30M150 95l35 55M110 150h60" stroke="#f2f3f5" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <rect x="172" y="60" width="14" height="30" rx="5" fill="#ffd60a"/>
+  <rect x="60" y="178" width="60" height="10" rx="5" fill="#ff6b35"/>
+</svg>

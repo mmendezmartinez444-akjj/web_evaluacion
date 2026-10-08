@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220" role="img" aria-labelledby="funcionalTitle">
+  <title id="funcionalTitle">Pesa rusa (kettlebell) sobre el suelo, representando el entrenamiento funcional</title>
+  <rect width="300" height="220" fill="#1d2024"/>
+  <ellipse cx="150" cy="175" rx="90" ry="14" fill="#14161a"/>
+  <path d="M150 70c22 0 38 18 38 42 0 30-18 48-38 48s-38-18-38-48c0-24 16-42 38-42z" fill="#ff6b35"/>
+  <path d="M128 70c0-14 10-24 22-24s22 10 22 24" fill="none" stroke="#ffd60a" stroke-width="10" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto — IronCore Gym</title>
+  <meta name="description" content="Escríbenos, visítanos o resuelve tus dudas. Encuentra la dirección de IronCore Gym y envíanos un mensaje directo." />
+  <meta name="keywords" content="contacto gimnasio, dirección gimnasio, escríbenos" />
+  <meta name="author" content="IronCore Gym" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">
+        <img src="assets/favicon.svg" alt="" width="36" height="36" />
+        IronCore Gym
+      </a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle-input" />
+      <label for="menu-toggle" class="nav-toggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="site-nav" id="menu-principal" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+          <li><a href="iniciar-sesion.html" class="nav-cta">Iniciar sesión</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h1 class="section-title">Contacto</h1>
+      <p class="section-lead">¿Tienes alguna pregunta sobre nuestras clases o planes? Escríbenos.</p>
+
+      <div class="contact-layout">
+        <section class="form-card" aria-labelledby="form-title">
+          <h2 id="form-title">Envíanos un mensaje</h2>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required minlength="2" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Correo electrónico</label>
+              <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="interes">Clase de interés</label>
+              <select id="interes" name="interes" required>
+                <option value="" disabled selected>Selecciona una opción</option>
+                <option value="musculacion">Musculación</option>
+                <option value="funcional">Entrenamiento funcional</option>
+                <option value="yoga">Yoga</option>
+                <option value="spinning">Spinning</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos en qué te podemos ayudar" required minlength="10"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-block">Enviar mensaje</button>
+          </form>
+        </section>
+
+        <aside class="contact-info">
+          <h2>Visítanos</h2>
+          <address>
+            IronCore Gym<br />
+            Calle Principal 450, Zona Deportiva<br />
+            <br />
+            Tel: (555) 234-5678<br />
+            Horario: Lun a Sáb, 6:00 am – 10:00 pm
+          </address>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-copy">&copy; 2026 IronCore Gym. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>

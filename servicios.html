@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servicios y clases — IronCore Gym</title>
+  <meta name="description" content="Descubre las clases de IronCore Gym: musculación, entrenamiento funcional, yoga y spinning, además de nuestros planes de membresía." />
+  <meta name="keywords" content="clases gimnasio, musculación, funcional, yoga, spinning, planes de membresía" />
+  <meta name="author" content="IronCore Gym" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">
+        <img src="assets/favicon.svg" alt="" width="36" height="36" />
+        IronCore Gym
+      </a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle-input" />
+      <label for="menu-toggle" class="nav-toggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="site-nav" id="menu-principal" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+          <li><a href="servicios.html" aria-current="page">Servicios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="iniciar-sesion.html" class="nav-cta">Iniciar sesión</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h1 class="section-title">Nuestras clases</h1>
+      <p class="section-lead">
+        Entrena con un enfoque claro: cada clase está diseñada y guiada por
+        entrenadores certificados.
+      </p>
+
+      <div class="card-grid">
+        <article class="card">
+          <img src="assets/musculacion.svg" alt="Mancuerna cargada con discos de pesas, representando el área de musculación" />
+          <div class="card-body">
+            <h3>Musculación</h3>
+            <p>Rutinas de fuerza con seguimiento personalizado y equipo completo de pesas libres.</p>
+            <span class="price-tag">Incluido en todos los planes</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/funcional.svg" alt="Pesa rusa (kettlebell) sobre el suelo, representando el entrenamiento funcional" />
+          <div class="card-body">
+            <h3>Entrenamiento funcional</h3>
+            <p>Circuitos de alta intensidad que combinan fuerza, resistencia y movilidad.</p>
+            <span class="price-tag">Clases grupales</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/yoga.svg" alt="Colchoneta de yoga enrollada junto a una silueta en postura de loto" />
+          <div class="card-body">
+            <h3>Yoga</h3>
+            <p>Sesiones de flexibilidad, respiración y equilibrio para complementar tu entrenamiento.</p>
+            <span class="price-tag">3 horarios semanales</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="assets/spinning.svg" alt="Bicicleta estática de spinning vista de perfil" />
+          <div class="card-body">
+            <h3>Spinning</h3>
+            <p>Cardio guiado con música en vivo para maximizar tu resistencia y quema calórica.</p>
+            <span class="price-tag">Cupo limitado</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Planes de membresía</h2>
+      <p class="section-lead">Elige el plan que mejor se adapte a tu rutina.</p>
+
+      <div class="table-wrapper">
+        <table class="compare-table">
+          <caption>Comparativa de planes mensuales</caption>
+          <thead>
+            <tr>
+              <th scope="col">Plan</th>
+              <th scope="col">Acceso a sala de pesas</th>
+              <th scope="col">Clases grupales</th>
+              <th scope="col">Precio</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Básico</th>
+              <td>Sí</td>
+              <td>No</td>
+              <td>$25/mes</td>
+            </tr>
+            <tr>
+              <th scope="row">Pro</th>
+              <td>Sí</td>
+              <td>Hasta 8 clases/mes</td>
+              <td>$40/mes</td>
+            </tr>
+            <tr>
+              <th scope="row">Elite</th>
+              <td>Sí</td>
+              <td>Ilimitadas</td>
+              <td>$60/mes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-copy">&copy; 2026 IronCore Gym. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
